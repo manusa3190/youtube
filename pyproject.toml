@@ -1,15 +1,12 @@
-[tool.poetry]
+[project]
 name = "youtube"
 version = "0.1.0"
 description = ""
-authors = ["manusa3190 <yuta.ueda.fromosaka@gmail.com>"]
-readme = "README.md"
-
-[tool.poetry.dependencies]
-python = "3.13"
-yt-dlp = "^2025.12.8"
-
-
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+authors = [
+    { name = "manusa3190", email = "yuta.ueda.fromosaka@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "streamlit>=1.61.1",
+    "yt-dlp[default]>=2026.7.4",
+]

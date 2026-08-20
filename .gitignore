@@ -1,0 +1,13 @@
+# Generated media
+downloads/
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+# Local secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+# macOS
+.DS_Store
